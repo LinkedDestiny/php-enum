@@ -1,0 +1,18 @@
+{
+    "name": "link-cloud/php-enum",
+    "description": "LinkCloud PHP Enum",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {
+        "php":            "^8.0",
+        "ext-reflection": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LinkCloud\\Enum\\": "src/"
+        },
+        "classmap": [
+            "stubs/Stringable.php"
+        ]
+    }
+}
